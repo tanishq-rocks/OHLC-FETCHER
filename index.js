@@ -1,6 +1,8 @@
-import yahooFinance from 'yahoo-finance2';
+import YahooFinance from 'yahoo-finance2';
 import fs from 'fs';
 import path from 'path';
+
+const yahooFinance = new YahooFinance();
 
 // Timeframes supported by Yahoo Finance's chart endpoint
 export const VALID_TIMEFRAMES = [
