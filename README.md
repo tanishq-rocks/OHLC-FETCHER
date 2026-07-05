@@ -1,8 +1,22 @@
-# OHLC Fetcher
+# OHLC Fetcher — Historical OHLCV / Candlestick Data Downloader (Stocks, Crypto, Forex, ETFs, Futures)
 
-Fetches historical OHLC (Open/High/Low/Close) candle data for any asset using
-[`yahoo-finance2`](https://www.npmjs.com/package/yahoo-finance2), and writes it
-to a CSV or JSON file.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Node.js](https://img.shields.io/badge/node-%3E%3D18-brightgreen)](package.json)
+
+A free, open-source **command-line tool and Node.js library** to download historical
+**OHLC / OHLCV (Open, High, Low, Close, Volume) candlestick data** for any
+**stock, cryptocurrency, ETF, index, or futures contract** listed on
+[Yahoo Finance](https://finance.yahoo.com), via
+[`yahoo-finance2`](https://www.npmjs.com/package/yahoo-finance2), and export it to
+**CSV, TSV, JSON, or NDJSON** — ready for Excel, pandas, Python/R backtesting,
+trading bots, or quantitative research.
+
+**Use it to:**
+- Download historical stock market data (`AAPL`, `TSLA`, `RELIANCE.NS`, ...)
+- Fetch cryptocurrency price history (`BTC-USD`, `ETH-USD`, ...)
+- Pull intraday or daily candlestick/OHLCV data for backtesting trading strategies
+- Export market data to CSV/JSON for Excel, Google Sheets, pandas, or a database
+- Get historical price data for a custom date range or a rolling lookback window
 
 ## Setup
 
