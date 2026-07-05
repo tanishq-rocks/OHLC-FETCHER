@@ -1,0 +1,16 @@
+{
+  "name": "ohlc-fetcher",
+  "version": "1.0.0",
+  "description": "Fetch OHLC candle data for any asset/timeframe via yahoo-finance2 and save to CSV/JSON.",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "ohlc-fetch": "./cli.js"
+  },
+  "scripts": {
+    "start": "node cli.js"
+  },
+  "dependencies": {
+    "yahoo-finance2": "^2.13.3"
+  }
+}
